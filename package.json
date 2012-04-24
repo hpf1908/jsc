@@ -4,7 +4,7 @@
   "description": "a package tool",
   "repository": "git@github.com:hpf1908/jsc.git",
   "author": "hpf1908<hpf1908@gmail.com>,
-  "main": "./server.js",
+  "main": "./index.js",
   "contributors": [ 
     { "name": "pengyou front group", "email": "hpf1908@gmail.com" }\
   ],

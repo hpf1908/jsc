@@ -9,15 +9,15 @@
  */
 
 
-var logger		= require('./logger')(__filename),
-	config		= require('./config.js'),
+var logger		= require('./lib/logger')(__filename),
+	config		= require('./lib/config.js'),
 	fs			= require("fs"),
 	path		= require('path'),
-	Queue		= require('./queue.js'),
+	Queue		= require('./lib/queue.js'),
 	q			= new Queue(),
 	args		= {},								//进程参数
 	seajsRoot	= path.resolve(__dirname,config.seajsRoot),
-	jsc			= require('./jsc.js'),
+	jsc			= require('./lib/jsc.js'),
 	modulePath,
 	undefined;
 
