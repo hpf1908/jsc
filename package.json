@@ -6,7 +6,7 @@
   "author": "hpf1908<hpf1908@gmail.com>,
   "main": "./index.js",
   "contributors": [ 
-    { "name": "pengyou front group", "email": "hpf1908@gmail.com" }\
+    { "name": "pengyou front group", "email": "hpf1908@gmail.com" }
   ],
   "dependencies": {},
   "keywords": ["jsc"],
