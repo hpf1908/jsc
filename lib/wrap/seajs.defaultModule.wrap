@@ -1,0 +1,7 @@
+//create by jsc
+define(function(require){
+
+	require.get = require;
+	
+	return require;
+});

@@ -16,15 +16,20 @@ module.exports = {
 		outputStr.should.equal(outputCorrectStr);
 	},
 	'should parse js by given path' : function(){
-
 		var path = __dirname + '/module/src';
 		var outputStr = jsParser.parse(path);
-
+		var outputCorrectStr = fs.readFileSync('./module/js_correct.js' ,'UTF-8');
+		outputStr.should.equal(outputCorrectStr);
+	},
+	'should create js by given path' : function(){
 		
-		console.log(outputStr);
+		var path = __dirname + '/module/src';
+		var output = __dirname + '/module/js.js';
+		jsc.createJs(path , output);
 	}
 }
 
 //module.exports['should parse module add name and deps']();
-module.exports['should parse js by given path']();
+//module.exports['should parse js by given path']();
+module.exports['should create js by given path']();
 
