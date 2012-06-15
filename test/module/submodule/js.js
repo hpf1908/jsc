@@ -8,17 +8,7 @@ define(function(require){
 define("./a",[],function(require , exports , module){
 	return {
 		init : function(){
-			console.log('hello world module');
-		}
-	}
-});
-define("./b",function(require , exports , module){
-	var c = require('./c');
-
-	return {
-		init : function(){
-			console.log('b');
-			c.init();
+			console.log('hello world from submodule for test');
 		}
 	}
 });
