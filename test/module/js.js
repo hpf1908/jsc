@@ -8,10 +8,11 @@ define(function(require){
 define("./a",[],function(require , exports , module){
 	return {
 		init : function(){
-			console.log('hello world module');
+			console.log('hello world');
 		}
 	}
 });
+
 define("./b",function(require , exports , module){
 	var c = require('./c');
 

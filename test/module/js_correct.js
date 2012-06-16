@@ -5,6 +5,7 @@ define("./a",[],function(require , exports , module){
 		}
 	}
 });
+
 define("./b",function(require , exports , module){
 	var c = require('./c');
 

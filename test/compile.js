@@ -18,8 +18,6 @@ var Tester = module.exports = {
 		this['should parse tmpl to js template']();
 		this['should parse tmpl widh folder']();
 		this['should create tmpl widh folder']();
-		
-		console.log('end test');
 	},
 
 	'should parse module add name and deps' : function(){
