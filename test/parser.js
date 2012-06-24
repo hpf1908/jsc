@@ -30,7 +30,8 @@ var Tester = module.exports = {
 			var ast = jsp.parse(orig_code); // parse code and get the initial AST
 			ast = pro.ast_mangle(ast); // get a new AST with mangled names
 
-			console.log(ast.scope.refs);
+			console.log(ast);
+			
 			fs.writeFileSync(
 				'./files/ast_test.ast',
 				JSON.stringify(ast),

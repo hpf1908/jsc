@@ -4,8 +4,15 @@ exec :
 
 node jsc m=xxx/xxxx
 
+todolist :
 
-todolist : 
+1 . 支持combo合并
+
+2 . 支持压缩合并到外部目录
+
+3. 统一编译目录*.src
+
+说明：
 
 1. 归纳合并工具的宗旨 ：简单|simple 
 
