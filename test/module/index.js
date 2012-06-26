@@ -27,7 +27,6 @@ define("./b",function(require , exports , module){
 define("./tmpl",[],function(require, exports, module){
 var tmpl = { 
 "a_tmpl":function(data){
-
 var __p=[],_p=function(s){__p.push(s)};
 __p.push(' 		<div>hello world</div>\
  		');
@@ -38,9 +37,7 @@ __p.push(' 		');
 
 return __p.join("");
 },
-
 "b_tmpl":function(data){
-
 var __p=[],_p=function(s){__p.push(s)};
 __p.push(' 		<div>hello world</div>\
  		');
