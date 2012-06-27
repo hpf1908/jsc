@@ -1,18 +1,3 @@
-//create by jsc
-define(function(require){
-
-	require.get = require;
-	
-	return require;
-});
-define("./a",[],function(require , exports , module){
-	return {
-		init : function(){
-			console.log('hello world from submodule test');
-		}
-	}
-});
-
 define("./tmpl",[],function(require, exports, module){
 var tmpl = { 
 "a_tmpl":function(data){

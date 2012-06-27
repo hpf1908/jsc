@@ -1,7 +1,6 @@
 define(function(require, exports, module){
 var tmpl = { 
 "a_tmpl":function(data){
-
 var __p=[],_p=function(s){__p.push(s)};
 __p.push(' 		<div>hello world</div>\
  		');
