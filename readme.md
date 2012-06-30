@@ -6,9 +6,7 @@ node jsc m=xxx/xxxx
 
 todolist :
 
-1 . 支持combo合并
-
-2 . 支持压缩合并到外部目录
+1 . 支持压缩合并到外部目录
 
 说明：
 
